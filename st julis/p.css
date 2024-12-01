@@ -1,0 +1,28 @@
+.principal-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.principal-photo-container {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.principal-photo {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.principal-details {
+    max-width: 600px;
+}
+
+.principal-details p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}

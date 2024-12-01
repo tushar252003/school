@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="c.css">
+    <link rel="stylesheet" href="a.css">
+    
+</head>
+<body>
+        <header>
+            <img src="2.png" alt="School Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About School</a></li>
+                    <li><a href="academic.html">Academic Programme</a></li>
+                    <li><a href="infrastructure.html">Infrastructure</a></li>
+                    <li><a href="principl.html">Principal</a></li>
+
+                </ul>
+            </nav>
+        </header>
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <!-- Left Section with Map -->
+            <div class="contact-left">
+                <h2 class="contact-title">Let's Chat</h2>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112333.62510356228!2d79.3395382493704!3d28.376205065769796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a007334d02998d%3A0x5b9d44cf31ee87f!2sBareilly%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1720237936659!5m2!1sen!2sin"
+                        width="100%" height="300" loading="lazy" class="map"
+                        style="border: 0;" allowfullscreen></iframe>
+                </div>
+                <p class="contact-description">Whether you have a question regarding admission , notices or any other thing , feel free to send us  a message in the contact form.</p>
+            </div>
+            <!-- Right Section with Form -->
+            <div class="contact-right">
+                <form action="https://formspree.io/f/mrbgpvpg" method="post" class="contact-form">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

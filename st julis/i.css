@@ -1,0 +1,128 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.contact p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.navbar-slider {
+    flex: 1;
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+#school-name-slider {
+    display: inline-block;
+    animation: slide 5s linear infinite;
+    white-space: nowrap;
+    position: relative;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    margin-left: 20px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar-links a:hover {
+    color: #ff3366;
+}
+
+/* Slider Animation */
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+        color: red;
+    }
+    25% {
+        transform: translateX(0);
+        color: blue;
+    }
+    50% {
+        transform: translateX(-100%);
+        color: green;
+    }
+    75% {
+        transform: translateX(0);
+        color: orange;
+    }
+    100% {
+        transform: translateX(100%);
+        color: purple;
+    }
+}
+
+/* Hero Section */
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.feature {
+    max-width: 300px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
